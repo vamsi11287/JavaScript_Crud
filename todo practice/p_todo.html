@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app </title>
+    <link rel="stylesheet" href="/p_todo.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2988/2988036.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="main m-5">
+        <h1 class="text-center text-info mt-5">TODO APP</h1>
+        <form id="task_form" autocomplete="off">
+            <div class="mb-3">
+              <label id="form-label">Add Tasks</label>
+              <input type="text" placeholder="enter task" class="form-control" id="task_input" required>
+            </div>
+            <input type="submit" id="task_submit" class="btn btn-success" value="submit" >          
+        </form>
+            <div class="task_lis">
+                <h2 class="mt-5 mb-4">Task</h2>
+                <div id="tasks" class="tasks">
+                    <!-- <div class="task">
+                        <div class="content">
+                            <input type="text" value="myitems" readonly class="text form-control  mb-3">
+                        </div>
+                        <div class="actions">
+                            <burtton class="btn btn-warning" id="edit">Edit</burtton>
+                            <burtton class="btn btn-danger" id="delete">Delete</burtton>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+    </div>
+    <script src="/p_todo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

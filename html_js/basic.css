@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width: 100%;
+}
+
+.main{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:50px;
+ 
+    box-shadow:2px 2px 20px rgb(23, 16, 16);
+}
+input:hover,button:hover{
+    transition: 0.3s;
+    border-bottom: 5px solid rgb(118, 118, 247);
+}
+input,button{
+    padding:20px;
+    border-radius: 5px;
+    outline: none;
+    border:none;
+    border-bottom:1px solid black;
+}
+.file,button{
+    border:none;
+}
+button{
+    background-color: rgb(119, 232, 109);
+} 
+body{
+    display: contents;
+    align-items: center;
+    justify-content: center;
+} 
+

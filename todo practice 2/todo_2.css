@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    margin: 0 50px;
+}
+  
+.container{
+    display:flex;
+    gap:50px;
+}
+#posts {
+    width: 400px;
+  }
+  
+i {
+    cursor: pointer;
+  }
+#posts div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.options{
+    display: flex;
+    gap:25px;
+}
+#msg{
+    color:red
+}
+.button{
+    border: none;
+    background-color: green;
+    box-shadow: 1px 1px 10px gray;
+    padding: 10px;
+    opacity:0.8;border-radius: 10px;
+    color:white;
+} 
+.style{
+    color:rgb(34, 172, 34);
+}
+.style1{
+    color:rgb(227, 83, 83)
+}
+#input{
+    padding: 15px;
+    width:500px;
+}
